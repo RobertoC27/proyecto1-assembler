@@ -30,12 +30,221 @@ uno:
 	escogerValor #10,#1
 	pulso
 	pausa 100
-	escogerValor #9,#0
+	escogerValor #9,#1
 	escogerValor #11,#0
 	escogerValor #4,#0
 	escogerValor #25,#0
 	escogerValor #10,#1
 	pulso
 	pausa 100
+pop {pc}
 	
-	pop {pc}
+.globl dos
+dos:
+	push {lr}
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#1
+	pulso
+	pausa 100
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#0
+	pulso
+	pausa 100
+pop {pc}
+
+.globl tres
+tres:
+	push {lr}
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#1
+	pulso
+	pausa 100
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#1
+	pulso
+	pausa 100
+pop {pc}
+
+.globl cuatro
+cuatro:
+	push {lr}
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#1
+	pulso
+	pausa 100
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#1
+	escogerValor #25,#0
+	escogerValor #10,#0
+	pulso
+	pausa 100
+pop {pc}
+
+.globl cinco
+cinco:
+	push {lr}
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#1
+	pulso
+	pausa 100
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#1
+	escogerValor #25,#0
+	escogerValor #10,#1
+	pulso
+	pausa 100
+pop {pc}
+
+.globl seis
+seis:
+	push {lr}
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#1
+	pulso
+	pausa 100
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#1
+	escogerValor #25,#1
+	escogerValor #10,#0
+	pulso
+	pausa 100
+pop {pc}
+
+.globl siete
+siete:
+	push {lr}
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#1
+	pulso
+	pausa 100
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#1
+	escogerValor #25,#1
+	escogerValor #10,#1
+	pulso
+	pausa 100
+pop {pc}
+
+.globl ocho
+ocho:
+	push {lr}
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#1
+	pulso
+	pausa 100
+	escogerValor #9,#1
+	escogerValor #11,#1
+	escogerValor #4,#0
+	escogerValor #25,#0
+	escogerValor #10,#0
+	pulso
+	pausa 100
+pop {pc}
+
+.globl nueve
+nueve:
+	push {lr}
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#1
+	pulso
+	pausa 100
+	escogerValor #9,#1
+	escogerValor #11,#1
+	escogerValor #4,#0
+	escogerValor #25,#0
+	escogerValor #10,#1
+	pulso
+	pausa 100
+pop {pc}
+
+.globl suma
+suma:
+	push {lr}
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#0
+	pulso
+	pausa 100
+	escogerValor #9,#1
+	escogerValor #11,#1
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#1
+	pulso
+	pausa 100
+pop {pc}
+
+.globl resta
+resta:
+	push {lr}
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#0
+	pulso
+	pausa 100
+	escogerValor #9,#1
+	escogerValor #11,#1
+	escogerValor #4,#1
+	escogerValor #25,#0
+	escogerValor #10,#1
+	pulso
+	pausa 100
+pop {pc}
+
+.globl igual
+igual:
+	push {lr}
+	escogerValor #9,#1
+	escogerValor #11,#0
+	escogerValor #4,#0
+	escogerValor #25,#1
+	escogerValor #10,#1
+	pulso
+	pausa 100
+	escogerValor #9,#1
+	escogerValor #11,#1
+	escogerValor #4,#1
+	escogerValor #25,#0
+	escogerValor #10,#1
+	pulso
+	pausa 100
+pop {pc}
+

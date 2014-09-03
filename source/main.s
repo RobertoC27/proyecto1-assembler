@@ -36,6 +36,7 @@ main:
 	
 	bl inicializarLCD
 	bl uno
+	bl igual
 	ciclo:
 	
 	b ciclo
