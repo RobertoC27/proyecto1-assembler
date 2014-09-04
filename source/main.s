@@ -35,6 +35,7 @@ main:
 	Funcion #23,#1 @E en escritura
 	
 	bl inicializarLCD
+	bl escogerMemoria
 	bl uno
 	bl igual
 	ciclo:

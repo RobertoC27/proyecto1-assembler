@@ -131,4 +131,61 @@ inicializarLCD:
 	pausa 5000
 	.unreq contador
 	pop {pc}
+
+.globl escogerMemoria
+escogerMemoria:
+push {lr}
+	mov r1,#0
+	mov r0,#9
+	bl SetGpio
+	mov r0,#11
+	mov r1,#1
+	bl SetGpio
+	mov r0,#4
+	mov r1,#0
+	bl SetGpio
+	mov r0,#24
+	mov r1,#0
+	bl SetGpio
+	mov r0,#10
+	mov r1,#0
+	bl SetGpio
+	mov r0,#23
+	mov r1,#1
+	bl SetGpio
+	ldr r0,=40
+	bl Wait
+	mov r0,#23
+	mov r1,#0
+	bl SetGpio
+	ldr r0,=100
+	bl Wait
+	
+@ Puertos GPIO para LCD: 9 (RS), 23(E), 10(D4), 24(D5), 4(D6), 11(D7)
+	mov r0,#9
+	mov r1,#0
+	bl SetGpio
+	mov r0,#11
+	mov r1,#1
+	bl SetGpio
+	mov r0,#4
+	mov r1,#0
+	bl SetGpio
+	mov r0,#24
+	mov r1,#0
+	bl SetGpio
+	mov r0,#10
+	mov r1,#0
+	bl SetGpio
+	mov r0,#23
+	mov r1,#1
+	bl SetGpio
+	ldr r0,=40
+	bl Wait
+	mov r0,#23
+	mov r1,#0
+	bl SetGpio
+	ldr r0,=100
+	bl Wait
+pop {pc}	
 	
